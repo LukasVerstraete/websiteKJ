@@ -1,0 +1,19 @@
+body
+{
+    background-color: $white;
+}
+
+.header
+{
+    background-color: $primary-color;
+
+    ul li:hover
+    {
+      background-color: $primary-light;
+    }
+
+    ul li a
+    {
+      color: $white;
+    };
+}
