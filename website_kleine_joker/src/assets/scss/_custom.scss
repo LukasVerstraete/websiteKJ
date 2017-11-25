@@ -1,6 +1,9 @@
 body
 {
+    font-family: $font-Questrial;
     background-color: $white;
+    height: 98vh;
+    align-self: flex-end;
 }
 
 .header
@@ -16,4 +19,41 @@ body
     {
       color: $white;
     };
+}
+
+.transparent
+{
+  background-color: transparent;
+}
+
+.KJ-jumbotron
+{
+  background-image: url("/assets/img/background_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+}
+
+.KJ-header-text
+{
+  text-transform: uppercase;
+}
+
+.KJ-card
+{
+  border:none;
+}
+
+.KJ-card-section
+{
+  background: $primary-color;
+  color: $white;
+}
+
+.horizontal
+{
+  img
+  {
+      size: cover;
+  }
 }
