@@ -88,5 +88,15 @@ body
 
 .text-white-secondary
 {
-  color: $black;
+  color: $light-gray;
+}
+
+.white-border
+{
+  border: 1px solid $white;
+}
+
+.gray-border
+{
+  border: 1px solid $light-gray;
 }
